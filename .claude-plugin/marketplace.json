@@ -1,0 +1,13 @@
+{
+  "name": "plain-language",
+  "description": "Home of the plain-language plugin.",
+  "owner": {
+    "name": "Emilio Barradas"
+  },
+  "plugins": [
+    {
+      "name": "plain-language",
+      "source": "./"
+    }
+  ]
+}
