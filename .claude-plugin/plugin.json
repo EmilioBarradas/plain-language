@@ -1,0 +1,9 @@
+{
+  "name": "plain-language",
+  "version": "0.1.0",
+  "author": {
+    "name": "Emilio Barradas"
+  },
+  "license": "MIT",
+  "description": "Makes every response easy to find information in, understand, and use, following ISO 24495-1:2023, Plain language — Part 1: Governing principles and guidelines. Loads automatically in every Claude Code session through a hook."
+}
