@@ -48,6 +48,14 @@ home.file.".agents/skills/plain-language".source =
   "${inputs.plain-language}/skills/plain-language";
 ```
 
+## Check that the rules are applied
+
+The Claude Code plugin can end a response with a marker line reading `plain-language: applied`. The model adds the line only when that response followed the rules.
+
+To turn the marker on, run `/plain-language:marker-on`. To turn it off, run `/plain-language:marker-off`.
+
+If the line stops appearing partway through a long thread, the model has stopped acting on the rules.
+
 ## Update
 
 Claude Code plugin:
